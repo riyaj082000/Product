@@ -48,7 +48,7 @@ form{
 
 .form .message {
     margin: 15px 0 0;
-  color:black,
+    color: black;
 }
 .error{
     color:rgb(239, 114, 114);
