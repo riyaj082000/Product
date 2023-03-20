@@ -1,0 +1,24 @@
+.img{
+    height: 517px;
+    width: 818px;
+}
+.img1{
+    margin-left: 171px;
+    height: 290px;
+    width: 383px;
+}
+.col{
+
+    justify-content:last baseline;
+}
+.message{
+    font-weight: 500px;
+    font-size: 58px;
+}
+button{
+    background-color:gray;
+    text-align: center;
+    margin-left: 313px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}

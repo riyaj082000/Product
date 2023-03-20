@@ -1,0 +1,12 @@
+<div class="container" >
+    <h2 style="color:white">Happy to see you here</h2>
+    <div class="row align-items-start">
+        <div class="col-md-4" *ngFor="let product of productArray">
+            <img class="img" [src]="product.image" />
+            <div class="pr-name">{{product.name}}</div>
+            <button class="btn btn-primary" (click)="productDetails(product.id)">
+                View Details
+            </button>
+        </div>
+    </div>
+</div>

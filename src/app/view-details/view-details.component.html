@@ -1,0 +1,23 @@
+<div class="container">
+    <button class="btn btn-primary float-end" (click)="onClick()">Back To Products</button>
+    <div class="name">{{productDetailsArray.name}}</div>
+    <div class="row">
+        <div class="col">
+            <img class="img" [src]="productDetailsArray.image" />
+        </div>
+        <div class="col">
+            <div>
+                Price: {{productDetailsArray.price}}
+            </div>
+            <div>
+                Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat dolore illo soluta
+                sunt quisquam commodi libero dolores sequi animi, quasi mollitia exercitationem temporibus, ab
+                recusandae quos? Quam, aut cum.
+            </div>
+            <div>
+                Stock: {{productDetailsArray.stock}}
+            </div>
+        </div>
+
+    </div>
+</div>

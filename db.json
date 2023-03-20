@@ -1,0 +1,97 @@
+{
+  "signupUsersList": [
+    {
+      "email": "riya@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "email": "sakshi@123",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "riya@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "email": "riya@gmail.com",
+      "password": "12345",
+      "id": 4
+    }
+  ],
+  "productDetails": [
+    {
+      "id": 1,
+      "name": "Elegance Hair Gel",
+      "price": 500,
+      "image": "https://5.imimg.com/data5/PG/VT/MY-2897950/plastic-coloured-shampoo-bottle-500x500.jpg",
+      "stock": 10567
+    },
+    {
+      "id": 2,
+      "name": "Elegance Hair Shampoo",
+      "price": 400,
+      "image": "https://lisapkg.com/Uploads/products/2020-08-17/en-IMG-7901-.jpg",
+      "stock": 9956
+    },
+    {
+      "id": 3,
+      "name": "BhringAmla Shampoo ",
+      "price": 349,
+      "image": "https://lisapkg.com/Uploads/products/2020-08-17/en-IMG-7884-.jpg",
+      "stock": 5689
+    },
+    {
+      "id": 4,
+      "name": "Tea Tree Shampoo and conditioner",
+      "price": 654,
+      "image": "https://media.wltx.com/assets/TEGNANC/images/551796148/551796148_1140x641.jpg",
+      "stock": 5649
+    },
+    {
+      "id": 5,
+      "name": "Aloe vera Shampoo and conditioner",
+      "price": 999,
+      "image": "https://i.etsystatic.com/8607747/r/il/302c8f/2001985686/il_fullxfull.2001985686_83do.jpg",
+      "stock": 3689
+    },
+    {
+      "id": 6,
+      "name": "Mock Up Shampoo",
+      "price": 200,
+      "image": "https://goodmockups.com/wp-content/uploads/2018/11/Free-Plastic-Shampoo-Bottle-Mockup-PSD-2.jpg",
+      "stock": 5874
+    },
+    {
+      "id": 7,
+      "name": "Baby Shampoo and Baby wash",
+      "price": 600,
+      "image": "https://i.pinimg.com/originals/02/00/e7/0200e71b84b2dd693c4ca70ddb329ac5.jpg",
+      "stock": 3254
+    },
+    {
+      "id": 8,
+      "name": "Eyelash Serum",
+      "price": 639,
+      "image": "https://www.eymockup.com/wp-content/uploads/2019/06/Modern-Shampoo-Bottle-Mockup-2019.jpg",
+      "stock": 1529
+    },
+    {
+      "id": 9,
+      "name": "Rice water Shampoo",
+      "price": 349,
+      "image": "https://i.etsystatic.com/13755006/r/il/ed59a4/1586495018/il_fullxfull.1586495018_bfn3.jpg",
+      "stock": 4712
+    },
+    {
+      "id": 10,
+      "name": "Argan Hair Shampoo",
+      "description": "Hair Shampoo with Aloe Vera.",
+      "price": 449,
+      "image": "https://i.etsystatic.com/13755006/r/il/3df01e/3097125270/il_1588xN.3097125270_2tjl.jpg",
+      "stock": 8524
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<div class="container">
+    <h1 style="color:rgb(35, 15, 15)">Welcome</h1>
+    <div class="form">
+        <form class="signUp-form" [formGroup]="signUpForm" (ngSubmit)="signUp()">
+
+            <input formControlName="email" type="text" class="form-control" placeholder="Email">
+            <div
+                *ngIf="signUpForm.get('email').invalid && (signUpForm.get('email').dirty || signUpForm.get('email').touched)">
+                <div class="error" *ngIf="signUpForm.get('email').hasError('required')">
+                    Email is required.
+                </div>
+                <div class="error" *ngIf="signUpForm.get('email').hasError('email')">
+                    Invalid email format.
+                </div>
+            </div>
+
+
+            <input formControlName="password" type="password" class="form-control" placeholder="password">
+            <div
+                *ngIf="signUpForm.get('password').invalid && (signUpForm.get('password').dirty || signUpForm.get('password').touched)">
+                <div class="error" *ngIf="signUpForm.get('password').hasError('required')">
+                    password is required.
+                </div>
+                <div class="error" *ngIf="signUpForm.get('password').hasError('minlength')">
+                    Password should have at least 5 characters.
+                </div>
+                <div class="error" *ngIf="signUpForm.get('password').hasError('maxlength')">
+                    Password should have at most 8 characters.
+                </div>
+            </div>
+            <br>
+
+            <button [disabled]="!signUpForm.valid">Submit</button>
+            <span class="message">Already have an account?
+                <a routerLink="/login">signIn</a></span>
+        </form>
+    </div>
+</div>
